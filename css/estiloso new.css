@@ -1,0 +1,13 @@
+.tab{
+	border: 2px solid rgb(250, 229, 37) ;
+	width: 70px;
+    height: 70px;
+	text-align: center;
+	padding: 3px;
+}
+.cont{
+	left: 25%;
+    top: 40px;
+	position: relative;
+	top: 0;
+}

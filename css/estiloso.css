@@ -1,0 +1,44 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: verdana;
+}
+
+body{
+	background-color: rgb(250, 229, 37);
+}
+
+nav{   /* alinha a cor do menu */
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0, 0, 0, 0.6);
+	line-height: 80px;
+
+}
+
+nav ul{
+	float: right;
+	margin-right: 30px;
+}
+
+
+nav ul li{  /* alinha o texto do menu*/
+	list-style-type: none;
+	display: inline-block; /* para alinhar o menu*/
+	transition: 0.5s;
+	
+}
+
+nav ul li:hover{
+	background-color: #f4e033;
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 30px;
+	font-size: 30px;
+}
+
+
